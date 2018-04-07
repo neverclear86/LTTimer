@@ -1,0 +1,23 @@
+{
+  "name": "LTTimer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:neverclear86/LTTimer.git",
+  "author": "neverclear86 <neverclear86sab@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node_modules/.bin/electron .",
+    "build": "node_modules/.bin/gulp",
+    "package": "node_modules/.bin/electron-packager . LTTimer --platform=all --arch=x64 --version=1.8.4 --asar"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-packager": "^12.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^3.0.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^3.3.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
